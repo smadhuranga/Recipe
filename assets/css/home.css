@@ -1,0 +1,22 @@
+li {
+  text-decoration:none;
+  color:darkkhaki;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Red Hat Display", sans-serif;
+  
+  
+}
+li:hover{
+  color: chocolate;
+}
+li + img {
+  width: 643px;
+  height: 429px;
+}
+a + p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+  text-decoration: none;
+}

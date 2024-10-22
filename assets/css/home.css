@@ -11,8 +11,8 @@ li:hover{
   color: chocolate;
 }
 li + img {
-  width: 643px;
-  height: 429px;
+  width: 50%;
+  height: auto;
 }
 a + p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

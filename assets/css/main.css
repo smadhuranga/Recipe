@@ -1,9 +1,13 @@
-.navbar {
+#navbar {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   font-family: "Red Hat Display", sans-serif;
   color: burlywood;
+  display: flex; align-items: center;
+  justify-content: center;
+  width: fit-contents;
+   
 }
 
 .navbar:hover {
@@ -11,7 +15,7 @@
   
 }
 main {
-  min-height: 72vh;
+  min-height: 66vh;
   display: flex;
   flex-direction: column;
 }
@@ -25,12 +29,46 @@ footer {
   border-radius: 10px;
   backdrop-filter: blur(5px);
   padding: 5px;
+  bottom: 0;
 }
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  
+
+}
+.nav-links a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
 
 .blurbk {
   border: 3px solid #ffffff1d;
   border-radius: 10px;
   backdrop-filter: blur(10px);
   padding: 5px;
+  display: flex; align-items: center; justify-content: center;
+  flex-wrap: wrap;
+
   
 }
+body{
+  margin: 0px;
+  padding: 3vh;
+  
+}
+section{
+  width: 98vw;
+}
+
+.all-img{
+  width: 50%;
+  height: auto;
+}
+
